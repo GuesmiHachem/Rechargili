@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity.ContactActivity"
+    android:background="@drawable/back8"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/recherche"
+        android:layout_above="@+id/liste"
+
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/recherche"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:textColor="#000000" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/liste"
+
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

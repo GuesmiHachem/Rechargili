@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:weightSum="1"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/contact"
+        android:layout_margin="5dp"
+        android:background="@drawable/cercle1"
+        android:elevation="20dp"
+        android:translationZ="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:id="@+id/numetnom"
+        android:textSize="20dp"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/bouton3"
+        android:gravity="center_vertical|center"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="#efeaea"
+        android:drawableRight="@android:drawable/ic_media_play"
+        android:paddingRight="10dp"
+        android:elevation="20dp"
+        android:translationZ="10dp" />
+</LinearLayout>

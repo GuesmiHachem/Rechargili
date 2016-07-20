@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical"
+    android:background="@drawable/back8"
+    android:gravity="center_vertical|center_horizontal">
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Camera"
+        android:id="@+id/buttonCamera"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/buttonOrange"
+        android:background="@drawable/bouton3"
+        android:textSize="25dp"
+        android:textColor="#dbd6d6"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="orange"
+        android:id="@+id/buttonOrange"
+        android:layout_centerVertical="true"
+        android:background="@drawable/edittext"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/num1"
+        android:paddingLeft="5dp"
+        android:layout_weight="0"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Telecome"
+        android:id="@+id/buttonTelecom"
+        android:layout_below="@+id/buttonOrange"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/num2"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="ooredoo"
+        android:id="@+id/buttonOoredoo"
+        android:layout_alignLeft="@+id/buttonOrange"
+        android:layout_alignStart="@+id/buttonOrange"
+        android:layout_below="@+id/buttonTelecom"
+        android:layout_alignRight="@+id/buttonOrange"
+        android:layout_alignEnd="@+id/buttonOrange"
+        android:background="@drawable/edittext"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/num3"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="15dp" />
+
+
+</LinearLayout>
+
